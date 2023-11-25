@@ -18,7 +18,7 @@ function App() {
     return children;
   };
   return (
-    <BrowserRouter basename={import.meta.env.DEV ? "/" : "/chat/"}>
+    <BrowserRouter>
       <Routes>
         <Route
           path="/"
